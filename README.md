@@ -78,9 +78,3 @@ O sistema possui as seguintes entidades principais e relacionamentos:
 ### Texto Explicativo do Diagrama
 No sistema Hospital Vida Plena, um paciente pode possuir múltiplos prontuários e diversas internações.  Cada Prontuário é exclusivo para um único paciente e pode incluir diversos Atendimentos.  Cada Atendimento está relacionado a um Profissional e a um prontuário, com a possibilidade de incluir prescrições e exames vinculados.  Uma internação está relacionada tanto ao paciente quanto a um tipo específico de atendimento, podendo resultar em uma alta hospitalar.  Dessa forma, o modelo espelha o fluxo real de atendimento em hospitais, assegurando a rastreabilidade e a integridade dos dados clínicos.
 ---
-
-## Observações
-
-- O sistema já inclui dados iniciais para facilitar testes.
-- As validações de campos obrigatórios e relacionamentos são feitas via DataAnnotations e Fluent API.
-- Para dúvidas ou sugestões, abra uma issue no repositório.
