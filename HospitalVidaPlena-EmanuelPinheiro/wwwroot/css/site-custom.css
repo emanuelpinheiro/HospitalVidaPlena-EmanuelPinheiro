@@ -1,0 +1,81 @@
+body, .bg-white {
+    background-color: #fff;
+}
+
+.header-custom {
+    color: #c62828;
+    border-bottom: 2px solid #f8d7da;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.table-custom th {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.table-custom tr:nth-child(even) {
+    background-color: #fbeaec;
+}
+
+.table-custom tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.btn-custom {
+    background-color: #e57373;
+    color: #fff;
+    border: none;
+}
+
+    .btn-custom:hover, .btn-custom:focus {
+        background-color: #c62828;
+        color: #fff;
+    }
+
+a, .link-custom {
+    color: #c62828;
+}
+
+    a:hover, .link-custom:hover {
+        color: #b71c1c;
+        text-decoration: underline;
+    }
+
+.form-label, label {
+    color: #c62828;
+}
+
+input[type="text"], input[type="email"], input[type="date"], select, textarea {
+    border: 1px solid #f8d7da;
+    background-color: #fff;
+}
+
+    input[type="text"]:focus, input[type="email"]:focus, input[type="date"]:focus, select:focus, textarea:focus {
+        border-color: #e57373;
+        box-shadow: 0 0 0 0.2rem #f8d7da;
+    }
+
+.hero-section {
+    background: linear-gradient(90deg, #fff 60%, #f8d7da 100%);
+    border-radius: 12px;
+    padding: 40px 30px 30px 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(200,40,40,0.05);
+}
+
+.hero-title {
+    color: #c62828;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.hero-subtitle {
+    color: #721c24;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.quick-links .btn {
+    margin: 8px 8px 0 0;
+}
