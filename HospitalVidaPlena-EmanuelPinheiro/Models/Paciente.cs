@@ -18,7 +18,7 @@ namespace Hospisim.Models
         public string EstadoCivil { get; set; }
         public bool PossuiPlanoSaude { get; set; }
 
-        public ICollection<Prontuario> Prontuarios { get; set; }
-        public ICollection<Internacao> Internacoes { get; set; }
+        public ICollection<Internacao> Internacoes { get; set; } = new List<Internacao>();
+        public ICollection<Prontuario> Prontuarios { get; set; } = new List<Prontuario>();
     }
 }

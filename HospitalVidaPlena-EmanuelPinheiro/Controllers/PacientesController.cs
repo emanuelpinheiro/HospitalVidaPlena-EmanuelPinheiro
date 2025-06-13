@@ -73,6 +73,8 @@ namespace HospitalVidaPlena_EmanuelPinheiro.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            // Adicione este log temporário para depuração:
+            ViewBag.ModelStateErrors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
             return View(paciente);
         }
 

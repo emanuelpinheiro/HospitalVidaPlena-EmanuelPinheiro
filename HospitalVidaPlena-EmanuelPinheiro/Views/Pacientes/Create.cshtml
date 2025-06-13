@@ -9,6 +9,18 @@
     <div class="alert alert-info">@ViewBag.DbStatus</div>
 }
 
+@if (ViewBag.ModelStateErrors != null && ((List<string>)ViewBag.ModelStateErrors).Any())
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var error in (List<string>)ViewBag.ModelStateErrors)
+            {
+                <li>@error</li>
+            }
+        </ul>
+    </div>
+}
+
 <h2 class="header-custom">Novo Paciente</h2>
 <hr />
 <div class="row">
