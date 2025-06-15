@@ -1,6 +1,6 @@
 # Hospital Vida Plena
 
-Sistema de gestão hospitalar desenvolvido em ASP.NET Core (.NET 8) com Razor Pages e Entity Framework Core.
+Sistema de gestão hospitalar desenvolvido em ASP.NET Core (.NET 8) com MVC e Entity Framework Core.
 
 ## Instruções de Execução
 
